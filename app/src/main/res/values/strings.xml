@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ClearVoice AI</string>
+    <string name="nav_process">Process</string>
+    <string name="nav_live">Live Mic</string>
+    <string name="nav_batch">Batch</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="permission_rationale_record_audio">ClearVoice AI needs microphone access to run real-time, on-device noise cancellation.</string>
+    <string name="permission_rationale_storage">ClearVoice AI requires file storage permissions to import and export your audio files offline.</string>
+    <string name="permission_rationale_notification">ClearVoice AI needs background notifications to report background batch processing queue status.</string>
+    <string name="permission_btn_grant">Grant Permission</string>
+    <string name="permission_btn_settings">Open Settings</string>
+    
+    <string name="label_select_model">Processing Profile</string>
+    <string name="model_fast">Fast (RNNoise - 100KB)</string>
+    <string name="model_quality">Quality (DNS-48 - 7MB)</string>
+    <string name="btn_start_processing">Start Processing</string>
+    <string name="btn_cancel">Cancel</string>
+    
+    <string name="label_live_mic">Live Loopback</string>
+    <string name="wired_headphones_warning">Wired headphones are required to avoid feedback loops and echoing. Please connect a wired headset.</string>
+    <string name="latency_display">Latency: %1$d ms</string>
+    <string name="lat_simulated_info">Real-time off-thread LiteRT route</string>
+    <string name="btn_start_live">Start Loopback</string>
+    <string name="btn_stop_live">Stop</string>
+    
+    <string name="label_batch_processing">Batch Processing Queue</string>
+    <string name="btn_add_files">Add Files</string>
+    <string name="empty_batch_state">No batch files in queue. Add files to run multi-threaded background processing.</string>
+    
+    <string name="label_settings">ClearVoice Preferences</string>
+    <string name="settings_export_format">Default Saving Format</string>
+    <string name="settings_theme">Visual App Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="status_queued">Queued</string>
+    <string name="status_processing">Processing</string>
+    <string name="status_done">Done</string>
+    <string name="status_failed">Failed</string>
+    
+    <string name="import_card_title">Tap to import audio</string>
+    <string name="import_card_desc">Supports MP3, WAV, M4A, OGG</string>
+</resources>

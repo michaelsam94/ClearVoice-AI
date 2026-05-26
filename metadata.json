@@ -1,0 +1,6 @@
+{
+  "name": "ClearVoice AI",
+  "description": "Studio-quality on-device noise cancellation and offline dual-track audio isolation directly in your palm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
